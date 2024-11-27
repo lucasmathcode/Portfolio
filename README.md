@@ -12,6 +12,11 @@ Além disso, é preciso instalar o **Vite** para facilitar o processo de desenvo
 
 - [Instalação do Vite](https://www.youtube.com/watch?v=oXb-UE60KkI)
 
+Com todas as aplicações instaladas, ao baixar o arquivo, execute no terminal os seguintes comandos:
+
+- Primeiro comando: **npm install**
+- Segundo comando: **npm run dev** (abrirá o servidor que vai rodar o seu projeto)
+
 ## O que você encontrará no site
 
 Ao acessar o site, você poderá:
