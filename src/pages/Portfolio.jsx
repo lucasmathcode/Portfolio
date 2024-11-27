@@ -1,4 +1,4 @@
-import logoA3 from "../assets/logoa3.jpg"; // Usar o caminho relativo correto
+import logoA3 from "../assets/logoa3.jpg"; 
 import Lista from "../assets/lista de tarefas.png";
 import pokemon from "../assets/pokemon.png";
 
@@ -25,8 +25,6 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-
-      {/* Projeto 2 */}
       <div className="project-card">
         <img src={pokemon} alt="Projeto 2" />
         <div className="project-details">
@@ -45,8 +43,6 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-
-      {/* Projeto 3 */}
       <div className="project-card">
         <img src={Lista} alt="Projeto 3" />
         <div className="project-details">
