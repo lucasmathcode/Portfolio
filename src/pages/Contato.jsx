@@ -1,13 +1,12 @@
 import { useState } from "react";
 
 const Contato = () => {
-  // Estado para controlar a exibição da mensagem de sucesso
   const [submitted, setSubmitted] = useState(false);
 
-  // Função para lidar com o envio do formulário
+
   const handleSubmit = (e) => {
-    e.preventDefault(); // Impede o comportamento padrão de envio do formulário
-    setSubmitted(true); // Atualiza o estado para mostrar a mensagem de sucesso
+    e.preventDefault(); 
+    setSubmitted(true); 
   };
 
   return (
@@ -75,7 +74,6 @@ const Contato = () => {
         <button type="submit">Enviar Mensagem</button>
       </form>
 
-      {/* Exibe mensagem após envio */}
       {submitted && (
         <div className="success-message">
           <p>Obrigado! Sua mensagem foi enviada com sucesso.</p>
