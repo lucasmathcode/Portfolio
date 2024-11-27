@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contato from "./pages/Contato";
-import "./index.css"; // Estilos globais
-import "./app.css"; // Estilos específicos do App
+import "./index.css"; 
+import "./app.css";
 
 const App = () => (
   <Router>
