@@ -5,6 +5,9 @@ const Home = () => {
     <div className="home">
       <img className="img" src={minhafoto} alt="" />
       <h1>Bem-vindo ao meu portfólio!</h1>
+       <p className="tecnologias">
+        HTML | CSS | JAVA | JAVASCRIPT | PHP | REACT
+      </p>
       <div className="desc">
         <p>
           Sou Lucas Matheus, estou cursando a faculdade de Análise e
